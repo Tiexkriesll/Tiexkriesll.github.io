@@ -190,7 +190,35 @@ section {
 	color: #535ba0;
 }
 
-
+/* Theorycrafting */
+.theorycrafting-banner .banner-content {
+    border-radius:5px;                        
+	background-image: url(../images/theorycrafting/theorycrafting-banner1.png);
+	background-size: cover;     
+	background-repeat: no-repeat;
+}   
+.theorycrafting-banner .banner-content .banner-caption {
+    max-width: 450px;
+    border-radius:5px;
+	background-color: rgba(250,250,250,0.70);
+	margin: 20px;
+	padding: 10px;
+}
+.theorycrafting-banner .banner-content .banner-caption h3 {
+	font-size: 22px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.theorycrafting-banner .banner-content .banner-caption h3:hover {
+	color: #535BA0;
+	text-decoration: none;
+}
+.theorycrafting-banner .banner-content .banner-caption em {
+	font-style: normal;
+	color: #535ba0;
+}
 
 
 
