@@ -37,6 +37,11 @@ p {
 	letter-spacing: 0.2px;
 }
 
+p img {
+    width:32px;
+    height:32px;
+}
+
 h4 {
 	font-size: 19px;
 	font-weight: 700;
@@ -566,7 +571,7 @@ section {
 }
 .main-banner115 .banner-content {
     border-radius:5px;
-	background-image: url(../images/patch-banners/main-banner2.png);
+	background-image: url(../images/patch-banners/patch-substit.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
