@@ -15,10 +15,11 @@ Repository for personal TERA website
 
 ## Main
 
-</div>  
 ## License
 
 Copyright 2022 - present
 
 Released under the [MIT License](LICENSE)
 ***
+
+</div>
