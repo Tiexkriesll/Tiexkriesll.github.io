@@ -290,6 +290,12 @@ section {
 	background-image: url(../images/activities/mounts.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+} 
+.activity-banner11 .banner-content {
+    border-radius:5px; 
+	background-image: url(../images/activities/island-of-dawn.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }            
 .activity-banner .banner-content .banner-caption {
     max-width: 450px;
@@ -355,6 +361,13 @@ section {
 	padding: 10px;
 }
 .activity-banner10 .banner-content .banner-caption {
+    max-width: 450px;
+    border-radius:5px;
+	background-color: rgba(250,250,250,0.70);
+	margin: 20px;
+	padding: 10px;
+}
+.activity-banner11 .banner-content .banner-caption {
     max-width: 450px;
     border-radius:5px;
 	background-color: rgba(250,250,250,0.70);
@@ -468,6 +481,18 @@ section {
 	margin: 0px;
 }
 .activity-banner10 .banner-content .banner-caption h3:hover {
+	color: #535BA0;
+	text-decoration: none;
+}
+
+.activity-banner11 .banner-content .banner-caption h3 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.activity-banner11 .banner-content .banner-caption h3:hover {
 	color: #535BA0;
 	text-decoration: none;
 }
