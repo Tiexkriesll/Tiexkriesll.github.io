@@ -523,6 +523,82 @@ section {
 
 
 
+/*Lore*/
+.main-banner-lore .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.main-banner-lore .banner-content {
+    border-radius:5px;
+	background-image: url(../images/theorycrafting/lore-banner2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.main-banner-lore .banner-content .banner-caption {
+    max-width: 450px;
+    border-radius:5px;
+	background-color: rgba(250,250,250,0.70);
+	margin: 20px;
+	padding: 5px;
+}
+.main-banner-lore .banner-content .banner-caption h3 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.main-banner-lore .banner-content .banner-caption h3:hover {
+	color: #535BA0;
+	text-decoration: none;
+}
+.main-banner-lore .banner-content .banner-caption h4 {
+	font-size: 38px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.main-banner-lore .banner-content .banner-caption em {
+	font-style: normal;
+	color: #535ba0;
+}
+.main-banner-lore .banner-content .banner-caption span {
+	font-size: 15px;
+	color: #aaaaaa;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main-banner-lore .banner-content .banner-caption p {
+	margin-bottom: 30px;
+}
+/* LORE DISC */
+
+.lorebanner {
+    max-width: 1000px;
+    border-radius:5px;
+	background-color: rgba(250,250,250,0.70);
+	margin: 20px;
+	padding: 5px;
+}
+.lorebanner p {
+    color: #31323a;    
+}
+.lorebanner span {
+	font-size: 15px;
+	color: #31323a;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.lorebanner span:hover{
+	color: #535BA0;
+	text-decoration: none;
+}
+
 
 
 /* Banner MAIN */
@@ -1722,7 +1798,13 @@ section.buttons .container-fluid {
 	margin-top: 10px;
 	color: #fff;
 }
-
+  /* LORE */
+.featured-item-lore a {
+	margin-top: 10px;
+    font-size: 14px;
+	color: #fff;
+}
+  /* */
 .owl-carousel .owl-dots {
 	position: absolute;
 	top: -55px;
