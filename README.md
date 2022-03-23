@@ -10,11 +10,31 @@
 ![https://github.com/Zera-dev/luminous.github.io/blob/main/LICENSE](https://img.shields.io/github/license/Zera-dev/Luminous.github.io.svg)
 ----
 #  Tenacity
-Repository for personal TERA website
+<p>Repository for personal TERA website<br>
+Focusing on translation of KTERA Patch and GM notes, together with other informations like gear and dungeons.</p>
 
 
-## Main
+## Contents
 
+  <div align="left">
+    
+  - [Patch Notes](https://zera-dev.github.io/tenacity.github.io/index.html)
+  - [Suggestions](https://zera-dev.github.io/tenacity.github.io/static/suggestion-review.html)
+  - [Activities](https://zera-dev.github.io/tenacity.github.io/static/activities.html)
+  - [Theorycrafting](https://zera-dev.github.io/tenacity.github.io/static/theorycrafting.html)
+  - [Classes](https://zera-dev.github.io/tenacity.github.io/index.html)
+  - [Equipment](https://zera-dev.github.io/tenacity.github.io/index.html)
+  - [Dungeons](https://zera-dev.github.io/tenacity.github.io/index.html)
+  - [Battleground](https://zera-dev.github.io/tenacity.github.io/index.html)  
+  - [Achievements](https://zera-dev.github.io/tenacity.github.io/index.html)
+    
+  </div> 
+
+## Feedback  
+Feature requests on things to add are always welcome.If you want to send your feedback, feel free to [file an issue](https://github.com/Zera-dev/tenacity.github.io/issues/new).
+  
+  
+  
 ## License
 
 Copyright 2022 - present
