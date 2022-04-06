@@ -20,7 +20,7 @@ input, select, textarea {
 	outline: none;
 }
 
-a {
+a {      
    color: #31323a;      
    text-decoration: none;
 }
@@ -605,61 +605,147 @@ section {
 /* FIX PATCHES */
 
 .fixbanner-caption {
-    max-width: 300px;
+    max-width: 1000px;
     border-radius:5px;
 	background-color: rgba(250,250,250,0.70);
 	margin: 20px;
+    margin-left: 60px;
 	padding: 5px;
 }
 .fixbanner-caption span {
-	font-size: 15px;
+	font-size: 16px;
 	color: #31323a;
 	letter-spacing: 0.5px;
-	display: inline-block;
+	display: inline;
+    
 	margin-top: 5px;
+    margin-left: 25px;
 	margin-bottom: 5px;
 }
 .fixbanner-caption span:hover{
 	color: #535BA0;
 	text-decoration: none;
 }
+/* spacer */
+.fixbanner-caption h5 {
+    font-size: 20px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
+	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 100px;
+}
+/* TEXT after H5 */
+.fixbanner-caption h6 {
+	font-size: 15px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
+	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 15px;
+}
+/* SECOND SPACER */
+.fixbanner-caption h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
+	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 15px;
+}
 
-/*114*/
+/*PATCH BOX*/
 .main-banner .container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 .main-banner .banner-content {
-    border-radius:3px;
-	background-image: url(../images/patch-banners/main-banner.jpg);
+    border-radius: 15px;
+    background-color: #d3d3d5;
+    //background-image: url(../images/patch-banners/main-banner.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; 
 }
 .main-banner .banner-content .banner-caption {
-    max-width: 450px;
+    max-width: 1000px;
     border-radius:5px;
 	background-color: rgba(250,250,250,0.70);
 	margin: 20px;
+    margin-left: 25px;
 	padding: 5px;
 }
 .main-banner .banner-content .banner-caption h3 {
 	font-size: 28px;
 	font-weight: 400;
 	color: #31323a;
-	letter-spacing: 0.25px;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
 	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 20px;
 }
 .main-banner .banner-content .banner-caption h3:hover {
 	color: #535BA0;
 	text-decoration: none;
 }
+/* TEXT after second spacer */
 .main-banner .banner-content .banner-caption h4 {
-	font-size: 38px;
+	font-size: 20px;
 	font-weight: 400;
 	color: #31323a;
-	letter-spacing: 0.25px;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
 	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 15px;
 }
+/* spacer */
+.main-banner .banner-content .banner-caption h5 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
+	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 20px;
+}
+/* text after first spacer */
+.main-banner .banner-content .banner-caption h6 {
+	font-size: 15px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px; 
+    display: inline;
+    
+	margin: 0px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+    margin-left: 15px;
+}
+.main-banner .banner-content .banner-caption h3:hover {
+	color: #535BA0;
+	text-decoration: none;
+}
+
 .main-banner .banner-content .banner-caption em {
 	font-style: normal;
 	color: #535ba0;
@@ -667,60 +753,6 @@ section {
 .main-banner .banner-content .banner-caption p {
 	margin-bottom: 30px;
 }
-/*115*/
-.main-banner115 .container-fluid {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.main-banner115 .banner-content {
-    border-radius:5px;
-	background-image: url(../images/patch-banners/patch-substit.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-.main-banner115 .banner-content .banner-caption {
-    max-width: 450px;
-    border-radius:5px;
-	background-color: rgba(250,250,250,0.70);
-	margin: 20px;
-	padding: 5px;
-}
-.main-banner115 .banner-content .banner-caption h3 {
-	font-size: 28px;
-	font-weight: 400;
-	color: #31323a;
-	letter-spacing: 0.25px;
-	margin: 0px;
-}
-.main-banner115 .banner-content .banner-caption h3:hover {
-	color: #535BA0;
-	text-decoration: none;
-}
-.main-banner115 .banner-content .banner-caption h4 {
-	font-size: 38px;
-	font-weight: 400;
-	color: #31323a;
-	letter-spacing: 0.25px;
-	margin: 0px;
-}
-.main-banner115 .banner-content .banner-caption em {
-	font-style: normal;
-	color: #535ba0;
-}
-.main-banner115 .banner-content .banner-caption span {
-	font-size: 15px;
-	color: #aaaaaa;
-	letter-spacing: 0.5px;
-	display: inline-block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.main-banner115 .banner-content .banner-caption p {
-	margin-bottom: 30px;
-}
-
-
-
 
 /* Services */
 
@@ -740,7 +772,7 @@ section {
 
 .services .service-item {
 	margin-bottom: 3px;
-	background-color: #eaebef;
+	background-color: #e9e9ea;
 	padding: 50px;
 	text-align: center;
 	transition: all 0.5s;
@@ -2054,3 +2086,53 @@ section.buttons .container-fluid {
   }
 }
 
+.theorycraft-banner .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.theorycraft-banner .banner-content {
+    border-radius:5px;
+	background-image: url(../images/patch-banners/patch-substit.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.theorycraft-banner .banner-content .banner-caption {
+    max-width: 450px;
+    border-radius:5px;
+	background-color: rgba(250,250,250,0.70);
+	margin: 20px;
+	padding: 5px;
+}
+.theorycraft-banner .banner-content .banner-caption h3 {
+	font-size: 28px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.theorycraft-banner .banner-content .banner-caption h3:hover {
+	color: #535BA0;
+	text-decoration: none;
+}
+.theorycraft-banner .banner-content .banner-caption h4 {
+	font-size: 38px;
+	font-weight: 400;
+	color: #31323a;
+	letter-spacing: 0.25px;
+	margin: 0px;
+}
+.theorycraft-banner .banner-content .banner-caption em {
+	font-style: normal;
+	color: #535ba0;
+}
+.theorycraft-banner .banner-content .banner-caption span {
+	font-size: 15px;
+	color: #aaaaaa;
+	letter-spacing: 0.5px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.theorycraft-banner .banner-content .banner-caption p {
+	margin-bottom: 30px;
+}
